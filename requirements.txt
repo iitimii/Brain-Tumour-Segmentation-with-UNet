@@ -1,5 +1,4 @@
 fastapi 
-shutil
 nibabel
 numpy 
 cv2
