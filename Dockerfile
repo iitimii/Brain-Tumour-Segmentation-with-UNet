@@ -1,14 +1,24 @@
 
-FROM python:3.9
+FROM python:3.10
 
-WORKDIR /code
+# Maintainer info
+LABEL maintainer="your-email-address"
 
-COPY ./requirements.txt /code/requirements.txt
+# Make working directories
+RUN  mkdir -p  /brain-api
+WORKDIR  /brain-api
 
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+# Upgrade pip with no cache
+RUN pip install --no-cache-dir -U pip
 
+# Copy application requirements file to the created working directory
+COPY requirements.txt .
 
-COPY file_api.py /code/
+# Install application dependencies from the requirements file
+RUN pip install -r requirements.txt
 
+# Copy every file in the source folder to the created working directory
+COPY  . .
 
-CMD ["uvicorn", "main:app", "--host", "127.0.0.1", "--port", "8000"]
+# Run the python application
+CMD ["python", "main.py"]
