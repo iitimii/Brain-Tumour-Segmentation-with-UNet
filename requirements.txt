@@ -1,6 +1,6 @@
-fastapi 
+fastapi
 nibabel
-numpy 
-cv2
-tensorflow
+numpy
+opencv-python
+tensorFlow
 keras
