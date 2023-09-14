@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # Maintainer info
-LABEL maintainer="your-email-address"
+LABEL maintainer="timiiowolabi@gmail.com"
 
 # Make working directories
 RUN  mkdir -p  /brain-api
