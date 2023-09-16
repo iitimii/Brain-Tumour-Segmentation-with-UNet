@@ -135,3 +135,9 @@ For the tumor prediction process, the application utilizes FLAIR (Fluid-Attenuat
 - The segmented results are displayed in the application, allowing medical professionals to visualize and analyze the tumor.
 
 This approach leverages the unique characteristics of FLAIR and T1-CE images to enhance the accuracy of tumor prediction and segmentation, providing valuable insights for medical diagnosis and treatment planning.
+
+
+
+- Clone the Repo
+- Run this command in your terminal
+- ```streamlit run app.py```
