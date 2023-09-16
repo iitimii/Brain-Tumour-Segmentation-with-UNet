@@ -18,6 +18,7 @@ An efficient and user-friendly application for brain tumor segmentation in medic
   - [Enhancing Tumors](#enhancing-tumors)
 - [U-Net Model for Segmentation](#u-net-model-for-segmentation)
 - [Prediction Using FLAIR and T1-CE Images](#prediction-using-flair-and-t1-ce-images)
+- [How to run the app](#how-to-run-the-app)
 
 ## Overview
 
@@ -137,7 +138,7 @@ For the tumor prediction process, the application utilizes FLAIR (Fluid-Attenuat
 This approach leverages the unique characteristics of FLAIR and T1-CE images to enhance the accuracy of tumor prediction and segmentation, providing valuable insights for medical diagnosis and treatment planning.
 
 
-## To run the app:
+## How to run the app:
 - Open your terminal
 - Clone the Repo with this command
 - ```git clone https://github.com/iitimii/Brain-Tumour-Segmentation-with-UNet.git```
