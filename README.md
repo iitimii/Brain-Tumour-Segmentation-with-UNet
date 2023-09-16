@@ -138,7 +138,7 @@ This approach leverages the unique characteristics of FLAIR and T1-CE images to 
 
 
 ## To run the app:
--Open your terminal
+- Open your terminal
 - Clone the Repo with this command
 - ```git clone https://github.com/iitimii/Brain-Tumour-Segmentation-with-UNet.git```
 - Then cd into the directory with
