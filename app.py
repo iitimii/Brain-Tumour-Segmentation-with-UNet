@@ -1,3 +1,4 @@
+from subprocess import call
 import streamlit as st
 import requests
 
@@ -41,3 +42,6 @@ if flair and t1ce:
         )
     else:
         st.error("Error processing the image. Please try again.")
+
+
+call(["python", "main.py"])
