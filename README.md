@@ -137,7 +137,11 @@ For the tumor prediction process, the application utilizes FLAIR (Fluid-Attenuat
 This approach leverages the unique characteristics of FLAIR and T1-CE images to enhance the accuracy of tumor prediction and segmentation, providing valuable insights for medical diagnosis and treatment planning.
 
 
-**To run the app:**
-- Clone the Repo
+## To run the app:
+-Open your terminal
+- Clone the Repo with this command
+- ```git clone https://github.com/iitimii/Brain-Tumour-Segmentation-with-UNet.git```
+- Then cd into the directory with
+- ```cd Brain-Tumour-Segmentation-with-UNet```
 - Run this command in your terminal
 - ```streamlit run app.py```
